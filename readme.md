@@ -26,7 +26,7 @@ The project uses Python3 for now.
         ```
 
 3. Install requirements.txt using :
-    `pip install -r requirements.txt`
+    - `pip install -r requirements.txt`
 5. Run main.py
-    `cd parent/cryptoassettracker`
-    `python main.py`
+    - `cd parent/cryptoassettracker`
+    - `python main.py`
