@@ -80,7 +80,7 @@ class BinanceExchange():
         for elem in res['data']:
             res['info']['assetsSymbol'].append(elem['asset'])
             res['info']['usdBalance'] += elem['value']
-
+        res['info']['usdBalance'] = round(res['info']['usdBalance'], 2)
         res['data'] = sorted(
             res['data'], key=lambda d: d['value'], reverse=True)
 
